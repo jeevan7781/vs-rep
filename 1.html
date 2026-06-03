@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BrightEdge Digital</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f7ff;
+}
+
+header{
+    background:linear-gradient(135deg,#6a11cb,#2575fc);
+    color:white;
+    padding:20px 80px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-weight:bold;
+}
+
+.hero{
+    height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    background:linear-gradient(135deg,#6a11cb,#2575fc);
+}
+
+.hero-content h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    font-size:22px;
+    margin-bottom:30px;
+}
+
+.btn{
+    background:white;
+    color:#2575fc;
+    padding:15px 35px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.services{
+    padding:80px;
+    text-align:center;
+}
+
+.services h2{
+    margin-bottom:50px;
+    color:#333;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h3{
+    color:#2575fc;
+    margin-bottom:15px;
+}
+
+.about{
+    background:white;
+    padding:80px;
+    text-align:center;
+}
+
+.about h2{
+    margin-bottom:20px;
+}
+
+.contact{
+    background:#2575fc;
+    color:white;
+    padding:80px;
+    text-align:center;
+}
+
+.contact input,
+.contact textarea{
+    width:80%;
+    max-width:600px;
+    padding:12px;
+    margin:10px;
+    border:none;
+    border-radius:8px;
+}
+
+.contact button{
+    background:white;
+    color:#2575fc;
+    border:none;
+    padding:15px 30px;
+    border-radius:25px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">BrightEdge Digital</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Grow Your Business Online</h1>
+        <p>SEO • Social Media • Web Development • Branding</p>
+        <a href="#" class="btn">Get Started</a>
+    </div>
+</section>
+
+<section class="services">
+    <h2>Our Services</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>SEO Optimization</h3>
+            <p>Improve rankings and drive organic traffic.</p>
+        </div>
+
+        <div class="card">
+            <h3>Web Development</h3>
+            <p>Modern responsive websites for your business.</p>
+        </div>
+
+        <div class="card">
+            <h3>Social Media</h3>
+            <p>Build your brand and engage customers.</p>
+        </div>
+
+        <div class="card">
+            <h3>Google Ads</h3>
+            <p>Generate leads through targeted campaigns.</p>
+        </div>
+    </div>
+</section>
+
+<section class="about">
+    <h2>About Us</h2>
+    <p>
+        We help startups and enterprises achieve digital growth
+        through innovative marketing and technology solutions.
+    </p>
+</section>
+
+<section class="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Your Name"><br>
+        <input type="email" placeholder="Your Email"><br>
+        <textarea rows="5" placeholder="Message"></textarea><br>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    © 2026 BrightEdge Digital. All Rights Reserved.
+</footer>
+
+</body>
+</html>
